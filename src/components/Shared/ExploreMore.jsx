@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const ExploreMore = ({ title = "Explore More\nSolutions", description, cards }) => {
+const ExploreMore = ({ title = "Explore More Solutions", description, cards }) => {
   const sectionRef = useRef(null);
 
   useGSAP(

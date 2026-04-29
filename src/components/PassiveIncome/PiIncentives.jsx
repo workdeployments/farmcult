@@ -21,30 +21,20 @@ const PiIncentives = () => {
               *Availability depends on project eligibility and applicable state or central government schemes.
             </p>
           </div>
+          <div className="w-full lg:w-[35%] lg:ml-auto">
+            <div className="w-full rounded-[24px] overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.04)] bg-white border border-black/5">
 
-          <div className="w-full lg:w-[45%] lg:ml-auto">
-            {/* Split Image Card wrapper */}
-            <div className="w-full flex flex-col rounded-[24px] overflow-hidden lg:h-[440px] xl:h-[480px] min-h-[400px] shadow-[0_8px_30px_rgba(0,0,0,0.04)] bg-white border border-black/5">
-              <div className="w-full h-[60%] lg:h-[62%] relative bg-gray-100">
-                <img
-                  src="/Shared/Agri_Infrastructure_Fund.jpg"
-                  alt="Agri Infrastructure Fund"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-              </div>
-              <div className="w-full h-[40%] lg:h-[38%] relative bg-white">
-                <img
-                  src="/Shared/National_Horticulture_Board.jpg"
-                  alt="National Horticulture Board"
-                  className="absolute inset-0 w-full h-full object-cover bg-white"
-                />
-              </div>
+              <img
+                src="/Shared/AgriInfrastructure_HorticultureBoard.jpg"
+                alt="Government Subsidy Schemes"
+                className="w-full h-auto block"
+              />
+
             </div>
           </div>
-
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 

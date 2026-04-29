@@ -83,7 +83,7 @@ const PassiveIncome = () => {
       <PiHowItWorks />
       <PiIncentives />
       <ExploreMore 
-        title="Explore More\nSolutions"
+        title="Explore More Solutions"
         description="From hands-free investing to hands-on farming, we offer flexible ways to work with Farmcult based on your goals."
         cards={[
           {
